@@ -16,14 +16,15 @@ public class UserService {
 
     private final UserRepository userRepository;
 
-
+    private final JwtUtil jwtUtil;
 
     private final PasswordEncoder passwordEncoder;
 
     public UserService(UserRepository userRepository,
-                       PasswordEncoder passwordEncoder) {
+                       PasswordEncoder passwordEncoder, JwtUtil jwtUtil) {
         this.userRepository = userRepository;
         this.passwordEncoder = passwordEncoder;
+        this.jwtUtil = jwtUtil;
     }
 
 
@@ -51,7 +52,7 @@ public class UserService {
             throw new BadCredentialsException("Invalid password");
         }
 
-        String token = JwtUtil.generateToken(
+        String token = jwtUtil.generateToken(
                 user.getEmail(),
                 user.getRole().name()
         );
