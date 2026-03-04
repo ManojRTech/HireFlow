@@ -1,11 +1,13 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import api from "../services/api";
+import { useNavigate } from "react-router-dom";
 
 function JobDetails() {
 
   const { id } = useParams();
   const [job, setJob] = useState(null);
+  const navigate = useNavigate();
 
   useEffect(() => {
     fetchJob();
