@@ -34,7 +34,7 @@ function JobDetails() {
 
           {role === "JOB_SEEKER" && (
             <button
-              onClick={() => window.location.href = `/jobs/${id}/apply`}
+              onClick={() => Navigate(`/jobs/${id}/apply`)}
               className="mt-6 bg-green-600 text-white px-4 py-2 rounded"
             >
               Apply Now
