@@ -73,7 +73,7 @@ function EmployerApplications() {
                 </p>
 
                 <a
-                  href={`${backend}${app.resumeUrl}`}
+                  href={`${backend}/uploads/${app.resumeUrl}`}
                   target="_blank"
                   rel="noreferrer"
                   className="inline-block mt-3 text-indigo-600 underline"
