@@ -7,6 +7,7 @@ function EmployerApplications() {
   const { jobId } = useParams();
   const [applications, setApplications] = useState([]);
   const [selectedJob, setSelectedJob] = useState(null);
+  const backend = import.meta.env.VITE_BACKEND_URL;
 
   useEffect(() => {
     setSelectedJob(jobId);
@@ -72,7 +73,7 @@ function EmployerApplications() {
                 </p>
 
                 <a
-                  href={`http://localhost:8080/uploads/${app.resumeUrl}`}
+                  href={`${backend}${app.resumeUrl}`}
                   target="_blank"
                   rel="noreferrer"
                   className="inline-block mt-3 text-indigo-600 underline"
