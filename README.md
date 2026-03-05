@@ -20,29 +20,29 @@ https://hireflow-2sol.onrender.com
 ## 📸 Screenshots
 
 ### Home Page
-<img src="screenshots/HomePage.png" width="800"/>
+<img src="ScreenShots/HomePage.png" width="800"/>
 
 ### Job Seeker Interface
 
 #### Job Listings
-<img src="screenshots/JobListing.png" width="800"/>
+<img src="ScreenShots/JobListing.png" width="800"/>
 
 #### Job Details
-<img src="screenshots/JobDetails.png" width="800"/>
+<img src="ScreenShots/JobDetails.png" width="800"/>
 
 #### Apply Job
-<img src="screenshots/ApplyForJob.png" width="800"/>
+<img src="ScreenShots/ApplyForJob.png" width="800"/>
 
 #### Job Seeker Applications
-<img src="screenshots/MyApplications.png" width="800"/>
+<img src="ScreenShots/MyApplications.png" width="800"/>
 
 ### Employer Interface
 
 #### Employer Posted Jobs
-<img src="screenshots/MyPostedJobs.png" width="800"/>
+<img src="ScreenShots/MyPostedJobs.png" width="800"/>
 
 #### Employer Job Applications
-<img src="screenshots/EmployerApplicationsView.png" width="800"/>
+<img src="ScreenShots/EmployerApplicationsView.png" width="800"/>
 
 ---
 
