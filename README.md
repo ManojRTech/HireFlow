@@ -20,29 +20,29 @@ https://hireflow-2sol.onrender.com
 ## 📸 Screenshots
 
 ### Home Page
-![Home](ScreenShots/HomePage.png)
+<img src="screenshots/HomePage.png" width="800"/>
 
 ### Job Seeker Interface
 
 #### Job Listings
-![Jobs](ScreenShots/JobListing.png)
+<img src="screenshots/JobListing.png" width="800"/>
 
 #### Job Details
-![Job Details](ScreenShots/JobDetails.png)
+<img src="screenshots/JobDetails.png" width="800"/>
 
 #### Apply Job
-![Apply](ScreenShots/ApplyForJob.png)
+<img src="screenshots/ApplyForJob.png" width="800"/>
 
 #### Job Seeker Applications
-![Applications](ScreenShots/MyApplications.png)
+<img src="screenshots/MyApplications.png" width="800"/>
 
 ### Employer Interface
 
 #### Employer Posted Jobs
-![EmpJobs](ScreenShots/MyPostedJobs.png)
+<img src="screenshots/MyPostedJobs.png" width="800"/>
 
 #### Employer Job Applications
-![EmpApplications](ScreenShots/EmployerApplicationsView.png)
+<img src="screenshots/EmployerApplicationsView.png" width="800"/>
 
 ---
 
@@ -193,4 +193,3 @@ https://github.com/ManojRTech
 ## ⭐ Support
 
 If you found this project useful, consider giving it a star ⭐ on GitHub.
-<img width="1912" height="920" alt="EmployerApplicationsView" src="https://github.com/user-attachments/assets/3daf41ac-8248-4875-a3c1-7932da0fb29e" /><img width="1912" height="920" alt="EmployerApplicationsView" src="https://github.com/user-attachments/assets/9f929b15-cbc2-47a5-8d00-2220728ccb0c" />
