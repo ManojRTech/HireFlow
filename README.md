@@ -71,7 +71,7 @@ https://hireflow-2sol.onrender.com
 
 * Docker
 * Render (Backend & Database)
-* Render / Vercel (Frontend)
+* Render (Frontend)
 
 ---
 
